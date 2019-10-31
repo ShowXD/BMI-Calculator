@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BMI-Calculator</string>
+    <string name="MainTitle">BMI-Caculator</string>
+    <string name="MainButton">Click to start</string>
 </resources>
