@@ -12,8 +12,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // Variables
         val intent = Intent(this, ResultActivity::class.java)
 
+        // Functions
         btnSet(intent)
     }
 
