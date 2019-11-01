@@ -2,4 +2,8 @@
     <string name="app_name">BMI-Calculator</string>
     <string name="MainTitle">BMI-Caculator</string>
     <string name="MainButton">Click to start</string>
+    <string name="titleActivity">BMI計算機</string>
+    <string name="textHeight">身高(cm)</string>
+    <string name="titleWeight">體重(kg)</string>
+    <string name="buttonText">計算</string>
 </resources>

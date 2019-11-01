@@ -2,6 +2,7 @@ package com.example.bmi_calculator
 
 import android.app.ActivityOptions
 import android.content.Intent
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
@@ -20,7 +21,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun btnSet(intent: Intent) {
-
         buttonStart.setOnClickListener {
             startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle())
         }
