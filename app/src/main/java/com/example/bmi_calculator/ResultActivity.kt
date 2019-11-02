@@ -4,10 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_result.*
-import java.math.BigDecimal
 import kotlin.math.round
-import kotlin.math.roundToInt
-import kotlin.math.sqrt
 
 class ResultActivity : AppCompatActivity() {
 
